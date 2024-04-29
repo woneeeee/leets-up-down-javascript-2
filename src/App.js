@@ -1,4 +1,5 @@
 const MyUtils = require("../Utils/MyUtils");
+
 let input;
 let attempt;
 let answer;
@@ -27,7 +28,7 @@ class App {
         await this.printVersion2Result();
       }
       else{
-        throw "[ERROR] 존재하지 않는 버전입니다.";
+        throw '[ERROR] 존재하지 않는 버전입니다.';
       }
     } catch(error){
       throw new Error(`[ERROR] ${error}`);
